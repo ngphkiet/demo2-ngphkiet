@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(image/image.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    padding: 10px 0px;
+    /* background: wheat; */
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 4px;
+}
